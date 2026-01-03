@@ -1,0 +1,28 @@
+{
+  "name": "telegram-joke-bot",
+  "version": "1.0.0",
+  "description": "a telegram joke bot that enagages users by sending joke after a fixed interval",
+  "keywords": [
+    "edzy",
+    "joke-bot"
+  ],
+  "license": "ISC",
+  "author": "Rahul Kapoor",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
